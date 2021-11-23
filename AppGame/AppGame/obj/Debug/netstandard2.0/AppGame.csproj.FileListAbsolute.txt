@@ -1,0 +1,15 @@
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\bin\Debug\netstandard2.0\AppGame.deps.json
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\bin\Debug\netstandard2.0\AppGame.dll
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\bin\Debug\netstandard2.0\ref\AppGame.dll
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\bin\Debug\netstandard2.0\AppGame.pdb
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\AppGame.csproj.AssemblyReference.cache
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\AppGame.GeneratedMSBuildEditorConfig.editorconfig
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\AppGame.AssemblyInfoInputs.cache
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\AppGame.AssemblyInfo.cs
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\AppGame.csproj.CoreCompileInputs.cache
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\XamlC.stamp
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\AppGame.dll
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\ref\AppGame.dll
+D:\arquivocentralprojetosapp\AppGame\AppGame\AppGame\obj\Debug\netstandard2.0\AppGame.pdb

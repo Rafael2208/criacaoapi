@@ -43,7 +43,8 @@ namespace AppGame.Services
             {
                 string content = await response.Content.ReadAsStringAsync();
                 var games = JsonConvert.DeserializeObject<List<GameScore>>(content);
-                return games[0];
+                if (games.Count > 0) return games[0];
+                else new GameScore();
             }
             return new GameScore();
         }

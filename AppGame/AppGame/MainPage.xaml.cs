@@ -43,14 +43,48 @@ namespace AppGame
 
         }
 
-        private void btExcluir_Clicked(object sender, EventArgs e)
+        private async void btExcluir_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                score = await api.GetHighScore(Convert.ToInt32(entId.Text));
+                if (score.id > 0)
+                {
+                   await api.DeleteHighScore(score.id);
+                }
+                await DisplayAlert("Alerta", "Excluido com sucesso", "OK");
+            }
+            catch (Exception error)
+            {
+                await DisplayAlert("Erro", error.Message, "OK");
+            }
         }
 
-        private void btSalvar_Clicked(object sender, EventArgs e)
+        private async void btSalvar_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+               score = new GameScore();
+                score.game = entGame.Text;
+                score.name = entName.Text;
+                score.highscore = Convert.ToInt32(entHiScore.Text);
+                score.email = entEmail.Text;
+                entPhrase.Text = entPhrase.Text;
+                if (btSalvar.Text == "Atualizar")
+                {
+                    score.id = Convert.ToInt32(entId.Text);
+                    await api.UpdateHighScore(score);
+                }
+                else
+                {
+                    await api.CreateHighScore(score);
+                }
+                await DisplayAlert("Alerta", "Atualizado com sucesso", "OK");
+            }
+            catch (Exception error)
+            {
+                await DisplayAlert("Erro", error.Message, "OK");
+            }
         }
 
         private void LimparCampos()
