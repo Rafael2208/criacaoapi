@@ -69,7 +69,9 @@ namespace AppGame.Services
 
         public async Task DeleteHighScore(int Id)
         {
-
+            String dados = URL + "/" + Id.ToString();
+            HttpClient client = GetClient();
+            HttpResponseMessage response = await client.DeleteAsync(dados);
         }
     }
 }
