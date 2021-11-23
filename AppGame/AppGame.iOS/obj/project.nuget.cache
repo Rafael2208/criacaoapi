@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "CXiapESO+zBaruEeDETFLpfedHX2D7nG2WxrUcKobRPA7M/Sqchg6APHGXMqIBv3EEH1VpxCzxus0mEyIo+qwA==",
+  "success": true,
+  "projectFilePath": "D:\\arquivocentralprojetosapp\\AppGame\\AppGame\\AppGame.iOS\\AppGame.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rafav\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\rafav\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\rafav\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\rafav\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
